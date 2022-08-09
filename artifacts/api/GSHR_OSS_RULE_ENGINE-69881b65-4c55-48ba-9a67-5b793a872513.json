@@ -1,0 +1,157 @@
+{
+	"id": "69881b65-4c55-48ba-9a67-5b793a872513",
+	"createdAt": "2022-07-29T15:32:52.161Z",
+	"createdBy": "VSawan10",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "d2feef01-ea73-4df6-ac0b-b63f9e42b9ae",
+			"method": "POST",
+			"path": "/OSS_FETCH_PGAREAS",
+			"description": "operation to get the PG AREAS",
+			"parameters": [],
+			"headers": [],
+			"responses": [
+				{
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"body": []
+				}
+			],
+			"serverScript": "06c58442-3e3e-47bd-82fb-2a075d0a90b4",
+			"content": [
+				{
+					"name": "REQUEST_BODY",
+					"objectType": "object"
+				}
+			]
+		},
+		{
+			"id": "24cc88bf-5b52-4bc5-ac82-8b44068b0098",
+			"method": "POST",
+			"path": "/OSS_FETCH_REGION_BASED_COUNTRIES",
+			"description": "operation to fetch region based countries",
+			"parameters": [],
+			"headers": [],
+			"responses": [
+				{
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"body": []
+				}
+			],
+			"serverScript": "3f7b7b29-d2be-413a-8db1-a70fb654bd0f",
+			"content": [
+				{
+					"name": "REQUEST_BODY",
+					"objectType": "object"
+				}
+			]
+		},
+		{
+			"id": "b9956e58-05cb-4264-a096-a0f0f4db47fa",
+			"method": "POST",
+			"path": "/OSS_FETCH_USD_EQUIVALENT",
+			"description": "operation to fetch the forex rate",
+			"parameters": [],
+			"headers": [],
+			"responses": [
+				{
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"body": []
+				}
+			],
+			"serverScript": "c0d1bba7-1476-4f7c-a46a-43943afe0b29",
+			"content": [
+				{
+					"name": "REQUEST_BODY",
+					"objectType": "object"
+				}
+			]
+		},
+		{
+			"id": "3458de91-738e-45b7-c296-6c3b5433183a",
+			"method": "POST",
+			"path": "/FETCH_SALARY_OFFER",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [
+				{
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"body": []
+				}
+			],
+			"serverScript": "198820b1-dba4-45be-8c9d-3ae60e4d35e5",
+			"content": [
+				{
+					"name": "REQUEST_BODY",
+					"objectType": "object"
+				}
+			]
+		},
+		{
+			"id": "92069417-ce80-431c-eedb-b0c34306d3b5",
+			"method": "POST",
+			"path": "/OSS_REWARDS_NOTIFICATION",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [
+				{
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"body": []
+				}
+			],
+			"serverScript": "8de19079-d664-4c99-80d0-ffc77e213ee3",
+			"content": [
+				{
+					"name": "REQUEST_BODY",
+					"objectType": "object"
+				}
+			]
+		}
+	],
+	"definitions": [
+		{
+			"id": "d45d8447-c5d3-43f9-808b-7493841a6f8b",
+			"name": "REQUEST_BODY",
+			"description": "",
+			"isInclude": false,
+			"properties": []
+		}
+	],
+	"documentation": [],
+	"name": "GSHR_OSS_RULE_ENGINE",
+	"endpoint": "/api/serverscript/gshr_oss_rule_engine",
+	"ver": "22.8.9.1721",
+	"version": "1.0",
+	"description": null,
+	"mediaType": null,
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "script",
+	"about": null,
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "fe88e924-8026-406a-ab72-68f20486b107",
+	"apiGroup": "6be0eae9-3bef-4b50-bdd1-1e96775c7542",
+	"apiFormat": 0,
+	"roles": []
+}

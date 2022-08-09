@@ -1,0 +1,45 @@
+{
+	"id": "84953e82-c25c-4c9d-a3cc-6f8344a7f4ab",
+	"createdAt": "2022-07-08T23:38:20.234Z",
+	"createdBy": "VSawan10",
+	"interface": [
+		{
+			"id": "81e1e5e2-79c1-442b-a1a3-d4784be8f79d",
+			"parent": "",
+			"name": "country",
+			"objectType": "string",
+			"description": "name of the country"
+		}
+	],
+	"rules": [
+		{
+			"id": "1d76a815-e4f8-4838-e00b-b5e490625eb1",
+			"result": "Alberta,New Brunswick,Toronto",
+			"items": [
+				{
+					"id": "7b85334c-a9b9-4711-cd30-8b2e6cf9625b",
+					"field": "81e1e5e2-79c1-442b-a1a3-d4784be8f79d",
+					"operator": "equal",
+					"value": "CANADA"
+				}
+			]
+		},
+		{
+			"id": "09d3bf2f-2acf-4ce2-b312-01c71557d323",
+			"result": "Rio Claro,Sao Jose,Nova Hartz",
+			"items": [
+				{
+					"id": "3ad585d0-75f9-48bf-8746-aa53436c1790",
+					"field": "81e1e5e2-79c1-442b-a1a3-d4784be8f79d",
+					"operator": "equal",
+					"value": "BRAZIL"
+				}
+			]
+		}
+	],
+	"name": "HRIA_FETCH_PGAREA",
+	"description": "Rule to fetch the PG Area based on the country selected by user",
+	"ver": "22.8.9.1658",
+	"package": "fe88e924-8026-406a-ab72-68f20486b107",
+	"roles": []
+}

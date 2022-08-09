@@ -1,0 +1,97 @@
+{
+	"id": "fe88e924-8026-406a-ab72-68f20486b107",
+	"createdAt": "2022-08-09T20:44:47.735Z",
+	"createdBy": "VSawan10",
+	"git": {
+		"targetServers": [],
+		"remote": "https://github.com/vsawan10/SampleReact.git",
+		"readme": [
+			"==OBJECT STRING==",
+			"This is Read Me file for sampleReact repo\r",
+			"Please read it."
+		],
+		"testServers": [],
+		"testAPI": [
+			{
+				"id": "c46a2589-d291-4558-b26d-5562bc499cf0",
+				"apiid": "69881b65-4c55-48ba-9a67-5b793a872513",
+				"operid": "d2feef01-ea73-4df6-ac0b-b63f9e42b9ae",
+				"enabled": true
+			}
+		],
+		"packageJSON": [
+			"==OBJECT STRING==",
+			"{",
+			"  \"name\": \"SAMPLE_REACT\",",
+			"  \"version\": \"1.0.0\",",
+			"  \"description\": \"SAMPLE_REACT\",",
+			"  \"author\": \"Neptune Software\",",
+			"  \"license\": \"LicenseRef-LICENSE\",",
+			"  \"private\": true,",
+			"  \"scripts\": {",
+			"    \"deploy\": \"ts-node src/deploy.ts\",",
+			"    \"test\": \"jest --passWithNoTests\"",
+			"  },",
+			"  \"engines\": {",
+			"    \"node\": \"14.16.0\"",
+			"  },",
+			"  \"devDependencies\": {",
+			"    \"@types/jest\": \"^26.0.23\",",
+			"    \"typescript\": \"^4.2.3\",",
+			"    \"ts-node\": \"^10.0.0\",",
+			"    \"axios\": \"^0.21.1\",",
+			"    \"jest\": \"^27.0.4\",",
+			"    \"ts-jest\": \"^27.0.3\"",
+			"  }",
+			"}",
+			""
+		]
+	},
+	"name": "SAMPLE_REACT",
+	"description": null,
+	"ver": "22.8.9.1731",
+	"enableCICD": true,
+	"apps": [],
+	"api": [
+		{
+			"id": "69881b65-4c55-48ba-9a67-5b793a872513",
+			"name": "GSHR_OSS_RULE_ENGINE",
+			"description": null,
+			"apiGroup": "6be0eae9-3bef-4b50-bdd1-1e96775c7542"
+		}
+	],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [
+		{
+			"id": "84953e82-c25c-4c9d-a3cc-6f8344a7f4ab",
+			"name": "HRIA_FETCH_PGAREA",
+			"description": "Rule to fetch the PG Area based on the country selected by user"
+		},
+		{
+			"id": "60644c64-3a9c-4890-9e60-e89a399c8908",
+			"name": "HRIA_GET_AVAILABLE_COUNTRIES_BASED ON REGION",
+			"description": "Rule to get the list of countries in a particular region like EMEA, ASPAC etc."
+		}
+	],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [],
+	"category": [],
+	"launchpad": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": []
+}

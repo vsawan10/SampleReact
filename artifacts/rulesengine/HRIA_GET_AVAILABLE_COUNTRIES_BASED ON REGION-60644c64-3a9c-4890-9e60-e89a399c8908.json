@@ -1,0 +1,69 @@
+{
+	"id": "60644c64-3a9c-4890-9e60-e89a399c8908",
+	"createdAt": "2022-07-07T19:01:56.248Z",
+	"createdBy": "VSawan10",
+	"interface": [
+		{
+			"id": "508f1b2c-a627-4203-b651-bb589a0e5c48",
+			"parent": "",
+			"name": "region",
+			"objectType": "string",
+			"description": "name of the region"
+		}
+	],
+	"rules": [
+		{
+			"id": "8470f128-7dcc-45f5-8b26-4d1dd831550f",
+			"result": "United States of America,Canada",
+			"items": [
+				{
+					"id": "a62b4098-9fd8-43bd-a246-0c6ec46a79ac",
+					"field": "508f1b2c-a627-4203-b651-bb589a0e5c48",
+					"operator": "equal",
+					"value": "NA"
+				}
+			]
+		},
+		{
+			"id": "6b6df8cf-210d-46bc-9618-d1c40adbc518",
+			"result": "Afghanistan,France",
+			"items": [
+				{
+					"id": "d6a9d88c-af70-4213-bfd4-00360d607108",
+					"field": "508f1b2c-a627-4203-b651-bb589a0e5c48",
+					"operator": "equal",
+					"value": "EMEA"
+				}
+			]
+		},
+		{
+			"id": "c2c0897c-6f71-4a33-943f-613e7f263e87",
+			"result": "Colombia",
+			"items": [
+				{
+					"id": "b2c5e5a7-fc6d-41d9-b774-dd5b219bcc13",
+					"field": "508f1b2c-a627-4203-b651-bb589a0e5c48",
+					"operator": "equal",
+					"value": "LATAM"
+				}
+			]
+		},
+		{
+			"id": "c606115c-fc56-47b9-f028-5ca7337ef5dc",
+			"result": "Australia",
+			"items": [
+				{
+					"id": "34fb99fa-513b-4ca8-ae7f-b040609ef750",
+					"field": "508f1b2c-a627-4203-b651-bb589a0e5c48",
+					"operator": "equal",
+					"value": "ASPAC"
+				}
+			]
+		}
+	],
+	"name": "HRIA_GET_AVAILABLE_COUNTRIES_BASED ON REGION",
+	"description": "Rule to get the list of countries in a particular region like EMEA, ASPAC etc.",
+	"ver": "22.8.9.1658",
+	"package": "fe88e924-8026-406a-ab72-68f20486b107",
+	"roles": []
+}
