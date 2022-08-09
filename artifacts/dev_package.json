@@ -51,7 +51,14 @@
 	"description": null,
 	"ver": "22.8.9.1731",
 	"enableCICD": true,
-	"apps": [],
+	"apps": [
+		{
+			"id": "5e0e96c3-e025-4527-9d88-ca875299861d",
+			"application": "hria_login",
+			"title": "GSHR Login",
+			"description": "GSHR Login application "
+		}
+	],
 	"api": [
 		{
 			"id": "69881b65-4c55-48ba-9a67-5b793a872513",
