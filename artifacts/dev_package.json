@@ -56,15 +56,47 @@
 		{
 			"id": "69881b65-4c55-48ba-9a67-5b793a872513",
 			"name": "GSHR_OSS_RULE_ENGINE",
-			"description": null,
+			"description": "Added description....",
 			"apiGroup": "6be0eae9-3bef-4b50-bdd1-1e96775c7542"
 		}
 	],
 	"odataSource": [],
 	"odataMock": [],
 	"dictionary": [],
-	"jsclass": [],
-	"jsscript_group": [],
+	"jsclass": [
+		{
+			"id": "3f7b7b29-d2be-413a-8db1-a70fb654bd0f",
+			"name": "GSHR_OSS_GET_REGIONBASED_COUNTRIES",
+			"description": "sample script for OSS--fetching region based countries"
+		},
+		{
+			"id": "198820b1-dba4-45be-8c9d-3ae60e4d35e5",
+			"name": "OSS_FETCH_SALARY_OFFER",
+			"description": null
+		},
+		{
+			"id": "06c58442-3e3e-47bd-82fb-2a075d0a90b4",
+			"name": "GSHR_OSS_RULES_FETCH_PGAREAS",
+			"description": "sample HRIA script for PGAREAS"
+		},
+		{
+			"id": "c0d1bba7-1476-4f7c-a46a-43943afe0b29",
+			"name": "GSHR_OSS_CURRENCY_CONVERSION",
+			"description": "script for currency conversion"
+		},
+		{
+			"id": "8de19079-d664-4c99-80d0-ffc77e213ee3",
+			"name": "GSHR_OSS_REWARDS_NOTIFICATION",
+			"description": null
+		}
+	],
+	"jsscript_group": [
+		{
+			"id": "5d1f1d76-58c4-435d-8ca3-67cdbfb841f9",
+			"name": "HRIA_OSS",
+			"description": "sample script group for OSS rules"
+		}
+	],
 	"theme": [],
 	"pdf": [],
 	"rulesengine": [

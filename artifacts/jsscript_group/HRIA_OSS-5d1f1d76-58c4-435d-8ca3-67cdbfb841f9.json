@@ -1,0 +1,9 @@
+{
+	"id": "5d1f1d76-58c4-435d-8ca3-67cdbfb841f9",
+	"createdAt": "2022-07-27T18:39:52.769Z",
+	"createdBy": "VSawan10",
+	"name": "HRIA_OSS",
+	"description": "sample script group for OSS rules",
+	"ver": "22.8.9.1751",
+	"package": "fe88e924-8026-406a-ab72-68f20486b107"
+}
