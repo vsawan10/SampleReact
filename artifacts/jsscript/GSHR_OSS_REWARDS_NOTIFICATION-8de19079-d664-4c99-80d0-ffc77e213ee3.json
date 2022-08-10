@@ -14,7 +14,7 @@
 	"entitySets": [],
 	"apis": [],
 	"name": "GSHR_OSS_REWARDS_NOTIFICATION",
-	"ver": "22.8.10.143",
+	"ver": "22.8.10.145",
 	"description": null,
 	"content": [
 		"==OBJECT STRING==",
@@ -27,6 +27,8 @@
 		"        */\r",
 		"\r",
 		"        let startTime = Date.now();\r",
+		"\r",
+		"        let arr = [];\r",
 		"\r",
 		"        const g_salOfferTxt = '\\n Salary Offered USD';\r",
 		"        const g_maxTgtSalOfferTxt = '\\n Maximum Target Salary Offer';\r",
